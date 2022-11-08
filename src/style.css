@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 620px;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  padding: 10px;
+}
+
+nav {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f55;
+}
+
+nav > p {
+  margin: 5px;
+  color: white;
+}
+
+/* Separate CSS */
+.separate {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.separate--img {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.separate--top {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.separate--top > .separate--location {
+  margin: 0 5px;
+  height: 10px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2b283a;
+}
+
+.separate--top > .separate--link {
+  margin-top: 3px;
+  width: 106px;
+  height: 13px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.separate--title {
+  margin: 3px 0;
+  width: 326px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #2b283a;
+}
+
+.separate--date {
+  width: 319px;
+  height: 11px;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2b283a;
+  margin: 0;
+}
+
+.separate--decription {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+  color: #2b283a;
+}
